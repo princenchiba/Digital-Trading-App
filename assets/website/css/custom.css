@@ -1,0 +1,140 @@
+.up {
+	color: green;
+}
+
+.down {
+	color: red;
+}
+#crypto  table tbody tr.upbg {
+	background-color: rgba(255, 78, 34, .2);
+}
+
+#crypto  table tbody tr.downbg {
+	background-color: rgba(37, 37, 142, 0.2);
+}
+
+#crypto  table tbody tr td > .exchange {
+	color: #42f492;
+}
+/*Registration form css start*/
+#message {
+    display:none;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+#message p {
+    margin-bottom: 0;
+}
+.password_valid .valid {
+    color: green;
+}
+.password_valid .valid:before {
+    position: relative;
+    left: -10px;
+    content: "✔";
+}
+.password_valid .invalid {
+    color: red;
+}
+.password_valid .invalid:before {
+    position: relative;
+    left: -10px;
+    content: "✖";
+}
+.red{
+    border:1px red solid;
+}
+.mt-20{
+    margin-top: 20px !important;
+}
+/*Registration form css end*/
+/*payment process page view*/
+.dip_address{
+    border: 1px solid #ddd;
+    background: #ddd;
+    width: 300px;
+    padding: 5px;
+}
+.dip_address input{
+    width: 100%;
+    border: transparent;
+    background: transparent;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+#copydaddress{
+    width: 100%;
+    background: no-repeat;
+    border: 0;
+    text-align: center;
+    font-weight: bold;
+}
+.verify-color{
+    color: #4caf50;
+}
+.verify-cancel{
+    color: #f44336;
+}
+.verify-processing{
+    color: #3f51b5;
+}
+
+/*theme css end*/
+@media (min-width: 768px) { html { font-size: 16px; } .tooltip-inner { max-width: 350px; } }
+.mncrpt .container { max-width: 980px; }
+.mncrpt .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+img.radioimage-select { padding: 7px; border: solid 2px #ffffff; margin: 7px 1px; cursor: pointer; box-shadow: none; }
+img.radioimage-select:hover { border: solid 2px #a5c1e5; }
+img.radioimage-select.radioimage-checked { border: solid 2px #7db8d9; background-color: #f4f8fb; }
+/*login rember me*/
+.custom-control-label {
+    position: initial;
+    vertical-align: top !important;
+}
+.f_profile{
+    display: flex; 
+    align-items: center;
+}
+.f_name{
+    margin-right: 10px; 
+    color:#FFF;
+    font-size: 17px;
+    font-weight: 600;
+}
+.f_img{
+    max-width: 35px; 
+    border-radius: 50%;
+}
+
+.mention-text {
+    color: #ff0000;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.pt_10{
+    padding-top: 10px !important;
+}
+
+.inliner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+.inliner label{
+    width: 110px !important;   
+}
+.inliner h4 {
+    margin-left: 8px;
+    font-size: 15px;
+    color: #07C61C;
+    font-weight: 400;
+}
+.cryp_wrapper{
+    min-height: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}

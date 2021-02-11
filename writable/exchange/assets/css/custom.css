@@ -1,0 +1,85 @@
+.buyloginMessage{
+	width: 100%;
+}
+.buyloginMessage .alert-warning{
+	width: 100%;
+	padding: 5px;
+	margin-top: 5px;
+	background-color: #FF5000;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.buyloginMessage .alert-success{
+	width: 100%;
+	padding: 5px;
+	margin-top: 5px;
+	background-color: #07C61C;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.sellloginMessage{
+	width: 100%;
+}
+
+.sellloginMessage .alert-warning{
+	width: 100%;
+	padding: 5px;
+	margin-top: 5px;
+	background-color: #FF5000;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.sellloginMessage .alert-success{
+	width: 100%;
+	padding: 5px;
+	margin-top: 5px;
+	background-color: #07C61C;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+#exchangesChart{
+    height: 300px;
+}
+.night-mode .navbar-light .navbar-nav .nav-link {
+    color: #cdcfd0;
+}
+
+.user-menu .dropdown-item {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 13px;
+    color: #cdcfd0;
+    font-weight: 500;
+    padding: .4rem 1rem;
+}
+.chart-part{
+    position: relative;
+	overflow: auto;
+}
+::-webkit-scrollbar {
+  width: 2px;
+}
+::-webkit-scrollbar-track{
+	background-color: #ff0000;
+}
+::-webkit-scrollbar-thumb {
+  background: #E87982; 
+}
+@media(max-width: 1450px){
+    #exchangesChart{
+        height: 250px;
+    }
+}
+@media(max-width: 1800px){
+	.chart-part{
+		max-height: 450px;
+	}
+}
+
+
