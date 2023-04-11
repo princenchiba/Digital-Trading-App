@@ -54,7 +54,7 @@ npm run start
 - Bootstrap
 - npm
 
-## Contributing
+## Contribution Steps
 Contributions are always welcome! If you want to contribute to this project, please follow these steps:
 
 - Fork the repository
@@ -62,6 +62,7 @@ Contributions are always welcome! If you want to contribute to this project, ple
 - Make your changes and commit them
 - Push to your forked repository
 - Create a pull request
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
@@ -84,7 +85,7 @@ Here are some potential improvements that could be made to the application:
 - Add support for multiple languages
 - Improve the user interface and user experience
 
-## Contribution
+## Contribution Rules
 Before making any contributions, please ensure that your changes align with the goals and objectives of the project. We ask that you follow these guidelines when making changes:
 
 - Keep your changes focused and small. This will make it easier to review and merge your pull request.
