@@ -52,6 +52,7 @@ npm run start
 - Socket.io
 - Highcharts
 - Bootstrap
+- npm
 
 ## Contributing
 Contributions are always welcome! If you want to contribute to this project, please follow these steps:
